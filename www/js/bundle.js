@@ -67607,6 +67607,21 @@ angular.module('aw', ['ionic'])
 
 angular.module('aw')
 
-  .controller('GlobalCtrl', ['$scope', function ($scope) {
+  .controller('GlobalCtrl', ['$scope','$ionicHistory', function ($scope) {
     console.log('GlobalCtrl.');
+    
+    $scope.goBack = function () {
+     $ionicHistory.goBack(); 
+    } 
+    
   }]);
+
+angular.module('aw')
+
+  .directive('headerComponent', function () {
+    return {
+      restrict: 'E',
+      templateUrl: '../templates/components/header-component.html'
+    }
+  });
+
