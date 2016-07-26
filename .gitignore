@@ -10,4 +10,4 @@ ionic.project
 .editorconfig
 plugins
 hooks
-
+.io-config.json
