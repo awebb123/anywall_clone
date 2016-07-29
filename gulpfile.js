@@ -9,7 +9,7 @@ const paths = {
     'www/js/controllers/**/*.js',
     'www/js/directives/**/*.js'],
   styles: ['www/lib/ionic/css/ionic.css',
-    'www/styles/**/*.css']
+    'www/css/**/*.css']
 };
 
 gulp.task('default', ['js', 'css']);

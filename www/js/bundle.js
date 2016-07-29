@@ -67615,13 +67615,3 @@ angular.module('aw')
     } 
     
   }]);
-
-angular.module('aw')
-
-  .directive('headerComponent', function () {
-    return {
-      restrict: 'E',
-      templateUrl: '../templates/components/header-component.html'
-    }
-  });
-
